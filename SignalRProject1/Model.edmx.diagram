@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="39063cb13fb346e38dfb15f9370896ec" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Admission_Apply" Width="1.5" PointX="12" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Brunch" Width="1.5" PointX="12.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Class" Width="1.5" PointX="9.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Class_Room" Width="1.5" PointX="17.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Class_Routine" Width="1.5" PointX="20.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Country" Width="1.5" PointX="9.75" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Designation" Width="1.5" PointX="12.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.District" Width="1.5" PointX="3" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Division" Width="1.5" PointX="0.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Education_System" Width="1.5" PointX="23.25" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Event" Width="1.5" PointX="15" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Exam" Width="1.5" PointX="20.25" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Exam_Result" Width="1.5" PointX="22.5" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Exam_Routine" Width="1.5" PointX="25.5" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Gardian" Width="1.5" PointX="15" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Holiday" Width="1.5" PointX="15" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Notice_Board" Width="1.5" PointX="18" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Police_Station" Width="1.5" PointX="5.25" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Post_Office" Width="1.5" PointX="7.5" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Quota" Width="1.5" PointX="9.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Room" Width="1.5" PointX="15" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Rules_Regulations" Width="1.5" PointX="15" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.School" Width="1.5" PointX="10.5" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.School_Version" Width="1.5" PointX="21" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Section" Width="1.5" PointX="15" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Shift" Width="1.5" PointX="18" PointY="41" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Staff" Width="1.5" PointX="18" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Student_Type" Width="1.5" PointX="21" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Student" Width="1.5" PointX="20.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Subject_Group" Width="1.5" PointX="18" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Subject" Width="1.5" PointX="20.25" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Teacher" Width="1.5" PointX="15" PointY="20.375" IsExpanded="true" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__class__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Par_C__25518C17" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Par_D__2180FB33" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Par_D__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Par_P__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Par_P__245D67DE" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Pre_C__208CD6FA" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Pre_D__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Pre_D__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Pre_P__1EA48E88" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Pre_P__1F98B2C1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Admission__Quota__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Brunch__School_I__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Education__Brunc__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Events__Brunch_I__45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Rout__Brunc__3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Holiday__Brunch___489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Notice_Bo__Brunc__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Room__Brunch_Id__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Rules_Reg__Brunc__4B7734FF" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Brunch_Id__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Brunch__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Roo__Class__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Rou__Class__2FCF1A8A" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam__Class_Id__3587F3E0" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Resu__Class__42E1EEFE" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Rout__Class__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Notice_Bo__Class__4E53A1AA" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__class___08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Roo__Room___2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Roo__Secti__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Roo__Shift__282DF8C2" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Roo__Teach__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Rou__Secti__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Rou__Shift__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Rou__Subje__2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Class_Rou__Teach__31B762FC" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Country__Post_Of__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Par_Cou__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Pre_Cou__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Par_Count__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Pre_Count__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Par_Co__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Pre_Co__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Par_Co__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Pre_Co__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Designati__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Design__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__District__Divisi__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Par_Dis__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Pre_Dis__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Police_St__Distr__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Par_Distr__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Pre_Distr__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Par_Di__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Pre_Di__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Par_Di__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Pre_Di__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Par_Div__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Pre_Div__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Par_Divis__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Pre_Divis__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Par_Di__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Pre_Di__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Par_Di__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Pre_Di__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Education__Schoo__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Education__Shift__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Education__Stude__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam__Shift_Id__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Resu__Exam___41EDCAC5" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Rout__Exam___395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Resu__Stude__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Resu__Subje__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Rout__Shift__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Exam_Rout__Subje__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Par_Pol__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Par_Pos__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Pre_Pol__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Gardian__Pre_Pos__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Gardia__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Post_Offi__Polic__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Par_Polic__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Pre_Polic__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Par_Po__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Pre_Po__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Par_Po__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Pre_Po__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Par_Post___151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Staff__Pre_Post___10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Par_Po__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Pre_Po__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Par_Po__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Pre_Po__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Students__Quota___09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Section__Subject__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Subjects__Subjec__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK__Teachers__Subjec__6FE99F9F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
